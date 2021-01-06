@@ -1,0 +1,298 @@
+/* Global Area Start */
+:root{
+    /* All colors */
+    --menu: #3c3c3c;
+    --head-color: #363958;
+    --focus: #FF8367;
+    --text-color: #3e3e3e;
+    
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.btn{
+    text-decoration: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 25px;
+    background: linear-gradient(180deg, #FF8063, #f03434);
+}
+
+
+
+
+
+/* Global Area End */
+
+
+/* Header Section Start */
+header .container .main-menu{
+    text-align: right;
+    padding: 1rem 0;
+}
+
+header .container .main-menu a{
+    text-decoration: none;
+    color: #3c3c3c;
+    text-align: right;
+    margin-right: 5px;
+    font-size: 20px;
+    font-size: 600;
+    
+}
+
+header .hero-section{
+    display: flex;
+    padding: 25px;
+    justify-content: space-between;
+}
+header .container .hero-section .left{
+    width: 40%;
+
+}
+header .container .hero-section .left h1{
+    color: #363958;
+    font-size: 3.5rem;
+    font-weight: 600;
+
+}
+header .container .hero-section .left h1 span{
+    color: #FF8367;
+}
+header .container .hero-section .left p{
+    font-size: 19px;
+    margin-bottom: 15px;
+}
+header .container .hero-section .right{
+    justify-content: right;
+    width: 40%;
+}
+header .container .hero-section .right img{
+    height: 450px;
+    justify-content: right;
+}
+/* Header Section End */
+
+/* About Section Start */
+
+section.about .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section.about .left {
+    width: 50%;
+}
+section.about .left img{
+    width: 100%;
+}
+
+section.about .right{
+    width: 40%;
+}
+section.about .right h1{
+    color: #363958;
+    font-size: 3rem;
+    font-weight: 600;
+}
+section.about .right p{
+    color: var(--text-color);
+    font-size: 19px;
+    margin: 10px 0
+}
+section.about .container .socials{
+    width: 40%;
+    display: flex;
+}
+section.about .container .socials a{
+    margin-right: 10px;
+}
+section.about .container .socials a img{
+    width: 100%;
+    margin-right: 10px;
+}
+
+
+
+
+
+/* skils start */
+section.about .container .skills{
+    width: 100%;
+    margin: 20px auto;
+    list-style: none;
+}
+section.about .container .skills h1{
+    color: #363958;
+    font-size: 2rem;
+}
+section.about .container .skills li{
+    margin: 20px 0;
+}
+section.about .container .skills li h2{
+    margin: 5px 0;
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 15px;
+}
+section.about .container .skills li .bar{
+    background: #eeeeee;
+    display: block;
+    height: 12px;
+    overflow: hidden;
+    border-radius: 5px;
+
+}
+
+section.about .container .skills li .bar span {
+    
+    height: 12px;
+    float: left;
+    text-align: center;
+    font-size: 12px;
+}
+section.about .container .skills li .bar .html{
+    background: #3498DB;
+    width: 80%;
+}
+section.about .container .skills li .bar .css{
+    background: #FBD462;
+    width: 75%;
+}
+section.about .container .skills li .bar .bootstrap{
+    background: #FF468F;
+    width: 60%;
+}
+section.about .container .skills li .bar .javascript{
+    background: #e06641;
+    width: 85%;
+}
+section.about .container .skills li .bar .node-js{
+    background: #DA4453;
+    width: 40%;
+}
+/* skills End */
+
+
+section.about .container .right .btn-download-cv img{
+    width: 5%;
+}
+
+/* About Section End */
+
+
+
+
+/* Work Section Start */
+section.work{
+    background: #e5e5e5;
+    padding: 100px;
+}
+
+section.work .container h1{
+    color: #363958;
+    font-size: 3.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 200px 0 100px 0;
+}
+section.work .container h1 span{
+    color: var(--focus);
+}
+section.work .container .work-card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+}
+section.work .container .work-card-wrapper .work-card{
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+section.work .container .work-card-wrapper .work-card img{
+    width: 100%;
+    
+}
+section.work .container .work-card-wrapper .work-card h3{
+    color: #363958;
+    font-size:24px;
+    margin: 10px 0;
+
+}
+section.work .container .work-card-wrapper .work-card p{
+    color: #6C6C6C;
+    font-size: 14px;
+}
+
+/* Work Section End */
+
+/* Footer Section Start */
+
+footer .container .live-chat{
+    position: relative;
+    margin: 300px 0 200px 0;
+
+}
+
+footer .container .live-chat img{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+}
+footer .container .live-chat h1{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+
+    font-size: 50px;
+    font-weight: 600;
+    color: #ffffff;
+}
+footer .container .live-chat a{
+    position: absolute;
+    top: 42%;
+    left: 65%;
+    
+}
+
+footer .container .contact-info{
+    text-align: center;
+}
+footer .container .contact-info h2{
+    color: #696871;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+footer .container .contact-info h1{
+    color: #363958;
+    font-size: 50px;
+    margin: 15px 0;
+}
+footer .container .contact-info .socials{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+
+}
+
+
+
+/* Footer Section End */
